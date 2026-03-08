@@ -7,7 +7,7 @@ const ai = new GoogleGenAI({
 
 export async function POST(req: Request) {
   const { message } = await req.json();
-// tentando, tentando...tentando
+// tentando, tentando...tentando...tentando
   try {
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash", // modelo válido e atual
