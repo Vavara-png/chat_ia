@@ -1,0 +1,83 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #ece5dd; /* fundo estilo WhatsApp */
+  margin: 0;
+  padding: 0;
+}
+
+.chat-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: #ece5dd;
+  display: flex;
+  flex-direction: column;
+}
+
+.bubble {
+  max-width: 70%;
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: 10px;
+  word-wrap: break-word;
+  font-size: 15px;
+  line-height: 1.4;
+  position: relative;
+}
+
+.bubble.user {
+  background: #dcf8c6;
+  margin-left: auto;
+  text-align: right;
+}
+
+.bubble.assistant {
+  background: #fff;
+  margin-right: auto;
+  text-align: left;
+}
+
+.time {
+  font-size: 11px;
+  color: gray;
+  margin-top: 4px;
+  text-align: right;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px 16px;
+  background: #419e93;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0a7a6c;
+}
