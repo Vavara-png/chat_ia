@@ -20,7 +20,7 @@ O workflow configurado contempla:
 
 ## 🌐 Deploy
 A aplicação está publicada automaticamente no Vercel:  
-👉 [acesse aqui](chat-ia-tan.vercel.app)
+👉 [chat-ia-tan.vercel.app](https://chat-ia-tan.vercel.app)
 
 ## 📂 Estrutura do Workflow
 O arquivo `.github/workflows/main.yml` contém:
